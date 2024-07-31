@@ -1,0 +1,5 @@
+<view class="empty empty-class">
+  <image src="https://static.91goodschool.com/UpFiles/public/yikao/image/empty.png" mode="widthFix" class="image"/>
+  <view class="description">{{description}}</view>
+  <view class="action-button action-button-class" wx:if="{{actionButton}}" bind:tap="handleActionButtonTap">{{actionButtonText}}</view>
+</view>

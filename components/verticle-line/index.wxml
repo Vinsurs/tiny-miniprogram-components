@@ -1,0 +1,1 @@
+<view class="line line-class" style="width: {{width}}rpx; height: {{height}}rpx; background-color: {{color}};"></view>

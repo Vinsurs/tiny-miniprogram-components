@@ -1,0 +1,13 @@
+.html-renderer .rich-text {
+  max-width: 100%;
+}
+.rich-text .p {
+  margin-top: 32rpx !important;
+  margin-bottom: 32rpx !important;
+}
+.rich-text .img,
+.rich-text .table {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+}

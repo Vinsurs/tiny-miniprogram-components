@@ -1,0 +1,44 @@
+.navbar {
+  box-sizing: border-box;
+}
+.navbar.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.statusBar {
+  box-sizing: border-box;
+}
+.navigation {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.navigationIcon {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  padding-left: 32rpx;
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigationExtra {
+  margin-left: 48rpx;
+  box-sizing: border-box;
+}
+.navigationTitle {
+  font-size: 36rpx;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+.navbarPlaceholder {
+  box-sizing: border-box;
+}

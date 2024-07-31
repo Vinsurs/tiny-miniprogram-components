@@ -1,0 +1,10 @@
+<root-portal>
+<backdrop z-index="{{zIndex-1}}" open="{{mask && open}}" bind:tapmask="handleTapMask" />
+<view class="modal" style="z-index: {{zIndex}};">
+  <view class="modalHeader" wx:if="title">
+    <view class="modalTitle">{{title}}</view>
+    <font-icon name="icon-shanchu2" icon-class="modalClose" wx:if="{{closable}}" bind:tapicon="handleTapClose"></font-icon>
+  </view>
+  <slot></slot>
+</view>
+</root-portal>

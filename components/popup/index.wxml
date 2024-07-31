@@ -1,0 +1,6 @@
+<root-portal>
+<backdrop z-index="{{zIndex-1}}" open="{{mask && open}}" bind:tapmask="handleTapMask"/>
+<view class="popup" style="z-index: {{zIndex}};">
+  <slot></slot>
+</view>
+</root-portal>

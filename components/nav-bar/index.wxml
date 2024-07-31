@@ -1,0 +1,16 @@
+<view class="navbar {{fixed ? 'fixed' : ''}} navbar-class" style="background-color: {{navigationBarBackgroundColor}}; z-index: {{zIndex}};">
+  <view class="statusBar" style="height: {{layout.statusBarHeight}}px;"></view>
+  <view class="navigation" style="height: {{layout.navigationHeight}}px;">
+    <view class="navigationIcon">
+      <font-icon name="{{iconName}}" color="{{iconColor}}" size="{{iconSize}}" bind:tapicon="handleArrowLeftClick"></font-icon>
+      <view class="navigationExtra">
+        <slot></slot>
+      </view>
+    </view>
+    <view wx:if="{{navigationBarTitleText}}" class="navigationTitle" style="color: {{navigationBarTextStyle}}; ">
+      {{navigationBarTitleText}}
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{navigationBarPlaceholder}}" className="navbarPlaceholder placeholder-class" style="height: {{layout.statusBarHeight + layout.navigationHeight}}px; background-color: {{backgroundColorTop}};"></view>

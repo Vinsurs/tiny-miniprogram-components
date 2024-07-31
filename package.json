@@ -1,0 +1,20 @@
+{
+  "name": "tiny-miniprogram-components",
+  "version": "1.0.2",
+  "description": "wechat miniprogram custom components",
+  "main": "index.js",
+  "type": "commonjs",
+  "files": [
+    "./components/",
+    "./utils/",
+    "./wxParse/",
+    "index.js"
+  ],
+  "keywords": ["miniprogram", "miniprogram custom components", "miniprogram components"],
+  "author": "Vinsurs <2407232109@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinsurs/tiny-miniprogram-components.git"
+  }
+}

@@ -1,0 +1,9 @@
+.popup {
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 32rpx 32rpx 0 0;
+  transform: translateY(100%);
+}

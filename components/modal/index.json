@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "font-icon": "../font-icon/index",
+    "backdrop": "../backdrop/index"
+  }
+}
